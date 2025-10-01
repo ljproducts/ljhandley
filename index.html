@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Kitchen to Product - Kawaii Portfolio 🧁</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Kawaii Progress Hearts -->
+    <div class="progress-container">
+        <div class="progress-heart" id="progressHeart">💖</div>
+        <div class="progress-trail" id="progressTrail"></div>
+    </div>
+
+    <!-- Kawaii Navigation -->
+    <nav class="kawaii-nav">
+        <div class="nav-item" data-section="hero">🏠</div>
+        <div class="nav-item" data-section="journey">🛤️</div>
+        <div class="nav-item" data-section="projects">📚</div>
+        <div class="nav-item" data-section="skills">✨</div>
+        <div class="nav-item" data-section="articles">📖</div>
+        <div class="nav-item" data-section="contact">💌</div>
+    </nav>
+
+    <!-- Floating Kawaii Elements -->
+    <div class="kawaii-bg">
+        <div class="floating-food cupcake">🧁</div>
+        <div class="floating-food donut">🍩</div>
+        <div class="floating-food cookie">🍪</div>
+        <div class="floating-food cake">🎂</div>
+        <div class="floating-food pie">🥧</div>
+        <div class="floating-sparkle">✨</div>
+        <div class="floating-sparkle">⭐</div>
+        <div class="floating-sparkle">💫</div>
+        <div class="floating-heart">💕</div>
+        <div class="floating-heart">💖</div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-animation">
+                <div class="morphing-icon" id="morphingIcon">🧁</div>
+            </div>
+            <h1 class="hero-title">
+                From <span class="kawaii-text">Kitchen Magic</span> ✨<br>
+                to <span class="tech-text">Product Innovation</span> 📊
+            </h1>
+            <p class="hero-subtitle">
+                Blending culinary creativity with data-driven precision to craft delightful user experiences 🎨
+            </p>
+            <button class="kawaii-btn primary" data-scroll="journey">
+                <span>Start My Journey</span> 🚀
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="bouncing-arrow">👇</div>
+        </div>
+    </section>
+
+    <!-- Professional Journey Section -->
+    <section id="journey" class="journey-section">
+        <div class="container">
+            <h2 class="section-title">My Professional Journey 🛤️</h2>
+            <p class="section-subtitle">Real experiences that shaped my transition from culinary arts to product management</p>
+            
+            <div class="timeline-container">
+                <div class="timeline-item" data-animate>
+                    <div class="timeline-icon">🥖</div>
+                    <div class="timeline-content">
+                        <h3>Fresh Operations Specialist</h3>
+                        <p class="company">Acosta • Jan 2023 - Current</p>
+                        <p class="description">Designed nationwide training programs for 16+ retail locations, achieving a 53% increase in training completion and 15% process efficiency improvement through data analytics and systematic optimization.</p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Training Design</span>
+                            <span class="skill-tag">Data Analytics</span>
+                            <span class="skill-tag">Process Improvement</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate>
+                    <div class="timeline-icon">🧁</div>
+                    <div class="timeline-content">
+                        <h3>Founder & Product Developer</h3>
+                        <p class="company">Panda J's • Jan 2019 - Dec 2024</p>
+                        <p class="description">Founded and grew a successful dessert catering company using Agile-inspired product development cycles, A/B testing, and iterative feedback loops to achieve market fit and customer satisfaction.</p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Product Development</span>
+                            <span class="skill-tag">A/B Testing</span>
+                            <span class="skill-tag">Market Research</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate>
+                    <div class="timeline-icon">👩‍🍳</div>
+                    <div class="timeline-content">
+                        <h3>Culinary Instructor</h3>
+                        <p class="company">Mesa Kids Cooking School • Apr 2019 - Aug 2021</p>
+                        <p class="description">Designed tailored culinary programs using adaptive instructional techniques, achieving a 433% increase in student enrollment through user-centered learning approaches and continuous improvement.</p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Curriculum Design</span>
+                            <span class="skill-tag">User-Centered Learning</span>
+                            <span class="skill-tag">Program Scaling</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate>
+                    <div class="timeline-icon">🍳</div>
+                    <div class="timeline-content">
+                        <h3>Kitchen Operations Manager</h3>
+                        <p class="company">Lydia House • Jul 2016 - Jan 2019</p>
+                        <p class="description">Directed kitchen operations and cross-functional teams, driving a 400% revenue increase and 20% waste reduction through workflow optimization and process standardization.</p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Operations Management</span>
+                            <span class="skill-tag">Team Leadership</span>
+                            <span class="skill-tag">Process Optimization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Case Studies 📚</h2>
+            <p class="section-subtitle">Deep dives into real projects that showcase strategic thinking and execution</p>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-project="instagram-menu-tab" data-animate>
+                    <div class="project-icon">📱</div>
+                    <div class="project-content">
+                        <h3>Instagram Menu Tab Feature</h3>
+                        <p class="project-company">Product Strategy Case Study</p>
+                        <p class="project-desc">Designed native menu management feature for Instagram business profiles to help small food businesses</p>
+                        <div class="project-metrics">
+                            <span class="metric">📈 20-30% conversion lift</span>
+                            <span class="metric">🎯 Go-to-market strategy</span>
+                        </div>
+                        <button class="kawaii-btn secondary project-btn" data-case-study="instagram-menu-tab">
+                            Read Case Study 📖
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="henny-penny" data-animate>
+                    <div class="project-icon">🥘</div>
+                    <div class="project-content">
+                        <h3>Henny Penny Training Program</h3>
+                        <p class="project-company">Acosta</p>
+                        <p class="project-desc">Multi-market training coordination focusing on food safety and operational excellence</p>
+                        <div class="project-metrics">
+                            <span class="metric">📈 Standardized protocols</span>
+                            <span class="metric">🎯 Improved compliance</span>
+                        </div>
+                        <button class="kawaii-btn secondary project-btn" data-case-study="henny-penny">
+                            Read Case Study 📖
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="graba" data-animate>
+                    <div class="project-icon">🍽️</div>
+                    <div class="project-content">
+                        <h3>F&B Strategy Consultation</h3>
+                        <p class="project-company">Grab'a</p>
+                        <p class="project-desc">Enhanced offerings through customer feedback analysis and competitive research</p>
+                        <div class="project-metrics">
+                            <span class="metric">📊 Data-driven insights</span>
+                            <span class="metric">😊 Improved satisfaction</span>
+                        </div>
+                        <button class="kawaii-btn secondary project-btn" data-case-study="graba">
+                            Read Case Study 📖
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="panda-js" data-animate>
+                    <div class="project-icon">🐼</div>
+                    <div class="project-content">
+                        <h3>Panda J's Product Journey</h3>
+                        <p class="project-company">Founded Company</p>
+                        <p class="project-desc">End-to-end product development from concept to profitable 6-year business</p>
+                        <div class="project-metrics">
+                            <span class="metric">🚀 0 to market leader</span>
+                            <span class="metric">💝 Strong retention</span>
+                        </div>
+                        <button class="kawaii-btn secondary project-btn" data-case-study="panda-js">
+                            Read Case Study 📖
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise ✨</h2>
+            <p class="section-subtitle">Core competencies gained through culinary leadership and product management training</p>
+            
+            <div class="skills-grid">
+                <div class="skill-category" data-animate>
+                    <h3>🎯 Product Management</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Project Management (PMP Certified)</span>
+                        <span class="skill-item">User Research</span>
+                        <span class="skill-item">Product Development</span>
+                        <span class="skill-item">A/B Testing</span>
+                        <span class="skill-item">Agile & Iterative Methodologies</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-animate>
+                    <h3>📊 Analytics & Strategy</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Data Analysis (Power BI, Tableau)</span>
+                        <span class="skill-item">Market Research</span>
+                        <span class="skill-item">Strategic Thinking</span>
+                        <span class="skill-item">Performance Management</span>
+                        <span class="skill-item">User-Centric Thinking</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-animate>
+                    <h3>👥 Leadership & Communication</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Stakeholder Management</span>
+                        <span class="skill-item">Communication</span>
+                        <span class="skill-item">Cross-functional Leadership</span>
+                        <span class="skill-item">Team Training & Development</span>
+                        <span class="skill-item">Process Optimization</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-cert" data-animate>
+                <div class="cert-item">
+                    <div class="cert-icon">🎓</div>
+                    <div class="cert-content">
+                        <h4>Baking & Pastry Arts, A.S.</h4>
+                        <p>Sullivan University</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon">📜</div>
+                    <div class="cert-content">
+                        <h4>Project Management Professional (PMP)</h4>
+                        <p>Project Management Institute</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles" class="articles-section">
+        <div class="container">
+            <h2 class="section-title">Curated Insights 📖</h2>
+            <p class="section-subtitle">Articles and resources that inspire my product thinking</p>
+            
+            <div class="articles-grid">
+                <article class="article-card" data-animate>
+                    <div class="article-icon">📚</div>
+                    <div class="article-content">
+                        <h3>The Art of Product Roadmapping</h3>
+                        <p class="article-source">Harvard Business Review</p>
+                        <p class="article-desc">Strategic planning insights that translate beautifully from menu planning to product strategy</p>
+                    </div>
+                </article>
+
+                <article class="article-card" data-animate>
+                    <div class="article-icon">🍳</div>
+                    <div class="article-content">
+                        <h3>From Kitchen to Keyboard: Leadership Lessons</h3>
+                        <p class="article-source">Medium</p>
+                        <p class="article-desc">How high-pressure culinary environments prepare you for fast-paced product teams</p>
+                    </div>
+                </article>
+
+                <article class="article-card" data-animate>
+                    <div class="article-icon">🔍</div>
+                    <div class="article-content">
+                        <h3>User Research: Beyond the Recipe</h3>
+                        <p class="article-source">UX Collective</p>
+                        <p class="article-desc">Applying customer obsession from hospitality to digital product development</p>
+                    </div>
+                </article>
+
+                <article class="article-card" data-animate>
+                    <div class="article-icon">⚡</div>
+                    <div class="article-content">
+                        <h3>Agile in High-Pressure Environments</h3>
+                        <p class="article-source">Product School</p>
+                        <p class="article-desc">Lessons from managing kitchen operations during peak service times</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Let's Connect 💌</h2>
+            <p class="section-subtitle">Ready to bring culinary precision and creativity to your product team!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-animate>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:your.email@domain.com">your.email@domain.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📄</div>
+                        <div class="contact-details">
+                            <h4>Resume</h4>
+                            <button class="kawaii-btn outline" id="downloadResume">Download PDF 📥</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container" data-animate>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label class="form-label" for="name">Name 🏷️</label>
+                            <input type="text" id="name" name="name" class="form-control kawaii-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email 📧</label>
+                            <input type="email" id="email" name="email" class="form-control kawaii-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="message">Message 💭</label>
+                            <textarea id="message" name="message" class="form-control kawaii-input" rows="4" required placeholder="Tell me about your product team and how I can help! 🚀"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="kawaii-btn primary full-width">
+                            Send Message 💕
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Pages (Hidden by default) -->
+    <div id="caseStudyPages" class="case-study-pages hidden">
+        <!-- Instagram Menu Tab Case Study -->
+        <div id="instagram-menu-tab-study" class="case-study-page hidden">
+            <div class="case-study-header">
+                <button class="back-btn kawaii-btn outline" data-back="projects">← Back to Projects</button>
+                <div class="case-study-title-section">
+                    <div class="case-study-icon-large">📱</div>
+                    <h1>Instagram Menu Tab Feature</h1>
+                    <p class="case-study-subtitle">Product Strategy Case Study • Comprehensive Product Development</p>
+                </div>
+            </div>
+            
+            <div class="case-study-content">
+                <div class="case-study-section">
+                    <h2>📋 Executive Summary</h2>
+                    <p>This case study explores the development of a native menu tab feature for Instagram business profiles, specifically designed to address the challenges small food businesses face when showcasing dynamic menus on the platform. The proposed solution eliminates the need for external websites or third-party tools by enabling businesses to upload dish images, prices, and dietary labels directly within Instagram, with real-time update capabilities.</p>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>🎯 Problem Definition</h2>
+                    <p>Small food businesses currently struggle with several key challenges when managing menus on Instagram:</p>
+                    <ul>
+                        <li><strong>No Direct Menu Tab:</strong> Businesses must constantly update bio links or Stories with menu information, creating a cumbersome process for both business owners and customers</li>
+                        <li><strong>Manual Menu Updates:</strong> Many restaurants rely on third-party tools or external websites to display menus, adding complexity and making it difficult to keep information synchronized across platforms</li>
+                        <li><strong>Limited In-App Tools:</strong> Instagram lacks built-in menu management functionality, forcing businesses to use creative workarounds that are time-consuming and inefficient</li>
+                        <li><strong>Customer Confusion:</strong> Without a dedicated menu section, customers often scroll through posts or highlights to find menu items, leading to frustration and potential lost sales</li>
+                    </ul>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>💡 Proposed Solution: Instagram Menu Tab</h2>
+                    <p>The solution involves creating a dedicated "Menu Tab" integrated directly into Instagram business profiles, featuring:</p>
+                    <ul>
+                        <li><strong>Direct Menu Management:</strong> Upload and edit dish images, prices, and dietary labels without external tools</li>
+                        <li><strong>Real-Time Updates:</strong> Instant menu changes without website dependencies</li>
+                        <li><strong>Filtering Capabilities:</strong> Customers can filter by dietary restrictions (vegan, gluten-free) and price ranges</li>
+                        <li><strong>Social Integration:</strong> Tag menu items in Stories and posts with direct links to the menu tab</li>
+                        <li><strong>Analytics Dashboard:</strong> Track menu views, interactions, and conversion metrics</li>
+                    </ul>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>👥 User Personas & Stories</h2>
+                    <div class="persona-cards">
+                        <div class="persona-card">
+                            <h4>🍽️ Sarah, the Bistro Manager</h4>
+                            <p>"As Sarah, a manager of a local bistro, I want to instantly upload photos and prices for new menu items directly to my Instagram profile's menu tab, so my followers always see the latest dishes and never encounter outdated information."</p>
+                        </div>
+                        <div class="persona-card">
+                            <h4>🥗 Mike, the Vegan Diner</h4>
+                            <p>"As Mike, a health-conscious customer searching for vegan options, I want to filter the menu tab to display only vegan and gluten-free dishes, so I can quickly decide if this restaurant matches my dietary needs."</p>
+                        </div>
+                        <div class="persona-card">
+                            <h4>📸 Emily, the Trendy Foodie</h4>
+                            <p>"As Emily, a foodie who likes sharing new tastes on social media, I want to tap straight from the menu tab to highlight dishes in my Stories, so my friends can see prices, images, and labels without needing extra links or apps."</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>📊 Success Metrics & Benchmarks</h2>
+                    <div class="metrics-section">
+                        <div class="metric-group">
+                            <h4>Current Baseline</h4>
+                            <ul>
+                                <li>Conversion Rate: 10% of profile visitors engage with menu-related content and place orders</li>
+                                <li>Daily Profile Visits: 100 visitors per small food business</li>
+                                <li>Current Daily Orders: 10 orders or inquiries</li>
+                            </ul>
+                        </div>
+                        <div class="metric-group">
+                            <h4>Projected Improvements with Menu Tab</h4>
+                            <ul>
+                                <li>Conversion Rate Increase: 20-30% improvement</li>
+                                <li>New Daily Orders: 12-13 orders or inquiries (20-30% lift)</li>
+                                <li>North Star Metric: Conversion to orders or inquiries</li>
+                            </ul>
+                        </div>
+                        <div class="metric-group">
+                            <h4>Supporting Metrics</h4>
+                            <ul>
+                                <li>Menu tab interaction rate</li>
+                                <li>Filter usage frequency</li>
+                                <li>Time spent on menu tab</li>
+                                <li>Menu update frequency by businesses</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>🚀 Go-to-Market Strategy</h2>
+                    <div class="gtm-section">
+                        <div class="gtm-group">
+                            <h4>Launch Market Selection</h4>
+                            <ul>
+                                <li>Initial Market: Major metropolitan areas (New York City, Los Angeles, London)</li>
+                                <li>Target Population: 1,000-5,000 verified food business accounts for pilot</li>
+                                <li>Criteria: High Instagram activity, diverse food scene, early adopter mindset</li>
+                            </ul>
+                        </div>
+                        <div class="gtm-group">
+                            <h4>Promotion Strategy</h4>
+                            <ul>
+                                <li>Influencer Partnerships: Collaborate with popular food influencers</li>
+                                <li>Content Marketing: Tutorial videos, behind-the-scenes Stories, testimonials</li>
+                                <li>Paid Advertising: Targeted Instagram ads to food businesses</li>
+                                <li>Industry Partnerships: Work with restaurant associations and business groups</li>
+                                <li>User-Generated Content: Contests and hashtags to build momentum</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>📅 Rollout Plan</h2>
+                    <div class="rollout-timeline">
+                        <div class="phase-card">
+                            <h4>Phase 1: Pilot Launch (4 weeks)</h4>
+                            <p>Select metro areas</p>
+                        </div>
+                        <div class="phase-card">
+                            <h4>Phase 2: Regional Expansion (6 weeks)</h4>
+                            <p>Additional major cities</p>
+                        </div>
+                        <div class="phase-card">
+                            <h4>Phase 3: National Rollout (8 weeks)</h4>
+                            <p>All eligible business accounts</p>
+                        </div>
+                        <div class="phase-card">
+                            <h4>Phase 4: International Expansion (12+ weeks)</h4>
+                            <p>Global markets</p>
+                        </div>
+                    </div>
+                    <div class="rollback-strategy">
+                        <h4>Rollback Strategy</h4>
+                        <ul>
+                            <li>Feature toggles for immediate disabling if issues arise</li>
+                            <li>Backup systems for quick restoration</li>
+                            <li>Real-time monitoring of crash reports and user feedback</li>
+                            <li>Staged rollback capability by region or user segment</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>🚀 Key Learnings & Impact</h2>
+                    <p>This comprehensive product strategy case study demonstrates the ability to identify user pain points, develop targeted solutions, and create detailed go-to-market plans. The project showcases skills in user research, persona development, metrics planning, and strategic thinking - all essential capabilities for modern product management roles. The projected 20-30% conversion improvement represents significant business value for both Instagram and small food businesses.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Henny Penny Case Study -->
+        <div id="henny-penny-study" class="case-study-page hidden">
+            <div class="case-study-header">
+                <button class="back-btn kawaii-btn outline" data-back="projects">← Back to Projects</button>
+                <div class="case-study-title-section">
+                    <div class="case-study-icon-large">🥘</div>
+                    <h1>Henny Penny Installation & Training Program</h1>
+                    <p class="case-study-subtitle">Acosta • Multi-market training coordination</p>
+                </div>
+            </div>
+            
+            <div class="case-study-content">
+                <div class="case-study-section">
+                    <h2>🎯 Challenge</h2>
+                    <p>Standardize training protocols across multiple markets while ensuring compliance with food safety and operational standards. The challenge was coordinating consistent delivery across geographically dispersed teams with varying experience levels.</p>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>🛠️ Process & Methodology</h2>
+                    <ul>
+                        <li><strong>Stakeholder Alignment:</strong> Partnered with field teams to understand local challenges and requirements</li>
+                        <li><strong>Protocol Development:</strong> Created standardized training materials and assessment criteria</li>
+                        <li><strong>Training Delivery:</strong> Coordinated and delivered training sessions across multiple markets</li>
+                        <li><strong>Performance Monitoring:</strong> Implemented tracking systems to measure effectiveness and compliance</li>
+                    </ul>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>📊 Outcome & Impact</h2>
+                    <div class="outcome-metrics">
+                        <div class="metric-card">
+                            <div class="metric-icon">📈</div>
+                            <div class="metric-content">
+                                <h4>Improved Performance Consistency</h4>
+                                <p>Standardized protocols ensured uniform quality across all markets</p>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-icon">✅</div>
+                            <div class="metric-content">
+                                <h4>Enhanced Regulatory Alignment</h4>
+                                <p>Achieved compliance standards across all training locations</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>🚀 Key Learnings</h2>
+                    <p>This project reinforced the importance of stakeholder collaboration and systematic approach to training delivery. The experience of coordinating across multiple markets directly translates to managing cross-functional product teams and ensuring consistent user experiences across different touchpoints.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grab'a Case Study -->
+        <div id="graba-study" class="case-study-page hidden">
+            <div class="case-study-header">
+                <button class="back-btn kawaii-btn outline" data-back="projects">← Back to Projects</button>
+                <div class="case-study-title-section">
+                    <div class="case-study-icon-large">🍽️</div>
+                    <h1>Food & Beverage Strategy Consultation</h1>
+                    <p class="case-study-subtitle">Grab'a • Strategic planning and optimization</p>
+                </div>
+            </div>
+            
+            <div class="case-study-content">
+                <div class="case-study-section">
+                    <h2>🎯 Challenge</h2>
+                    <p>Enhance F&B offerings based on market insights and customer needs. The goal was to optimize product selection and service execution to improve overall event experience and client satisfaction.</p>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>🛠️ Process & Methodology</h2>
+                    <ul>
+                        <li><strong>Customer Feedback Analysis:</strong> Systematic collection and analysis of client feedback patterns</li>
+                        <li><strong>Competitive Research:</strong> Market analysis to identify gaps and opportunities</li>
+                        <li><strong>Stakeholder Collaboration:</strong> Worked closely with internal teams to align product offerings</li>
+                        <li><strong>Service Optimization:</strong> Refined execution processes based on insights gathered</li>
+                    </ul>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>📊 Outcome & Impact</h2>
+                    <div class="outcome-metrics">
+                        <div class="metric-card">
+                            <div class="metric-icon">🎉</div>
+                            <div class="metric-content">
+                                <h4>Optimized Event Experience</h4>
+                                <p>Enhanced offerings led to more memorable and satisfying events</p>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-icon">😊</div>
+                            <div class="metric-content">
+                                <h4>Improved Client Satisfaction</h4>
+                                <p>Data-driven approach resulted in better alignment with client expectations</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>🚀 Key Learnings</h2>
+                    <p>This consultation highlighted the power of combining customer feedback with competitive analysis to drive product decisions. The experience demonstrated how deep domain expertise (F&B) can be leveraged to provide strategic insights that directly impact customer satisfaction and business outcomes.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panda J's Case Study -->
+        <div id="panda-js-study" class="case-study-page hidden">
+            <div class="case-study-header">
+                <button class="back-btn kawaii-btn outline" data-back="projects">← Back to Projects</button>
+                <div class="case-study-title-section">
+                    <div class="case-study-icon-large">🐼</div>
+                    <h1>Panda J's Product Development Journey</h1>
+                    <p class="case-study-subtitle">Founded Company • Jan 2019 - Dec 2024</p>
+                </div>
+            </div>
+            
+            <div class="case-study-content">
+                <div class="case-study-section">
+                    <h2>🎯 Challenge</h2>
+                    <p>Build a profitable catering business from concept using limited resources. The challenge was developing unique dessert and beverage recipes while establishing market fit through customer-focused design and iterative improvement.</p>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>🛠️ Process & Methodology</h2>
+                    <ul>
+                        <li><strong>Iterative Development:</strong> Used Agile-inspired product development cycles to prioritize features and offerings</li>
+                        <li><strong>A/B Testing:</strong> Systematically tested flavor profiles and presentation styles with target customers</li>
+                        <li><strong>Feedback Loops:</strong> Established continuous feedback collection to refine products and service</li>
+                        <li><strong>Stakeholder Management:</strong> Coordinated with suppliers and clients to optimize supply chain and service delivery</li>
+                        <li><strong>Market Analysis:</strong> Monitored trends and adapted offerings based on evolving consumer preferences</li>
+                    </ul>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>📊 Outcome & Impact</h2>
+                    <div class="outcome-metrics">
+                        <div class="metric-card">
+                            <div class="metric-icon">🚀</div>
+                            <div class="metric-content">
+                                <h4>6-Year Successful Business</h4>
+                                <p>Grew from concept to profitable, sustainable business operation</p>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-icon">💝</div>
+                            <div class="metric-content">
+                                <h4>Strong Customer Retention</h4>
+                                <p>Achieved market fit through customer-focused product development</p>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-icon">⚡</div>
+                            <div class="metric-content">
+                                <h4>Efficient Operations</h4>
+                                <p>Optimized production capacity and supply chain reliability</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-study-section">
+                    <h2>🚀 Key Learnings</h2>
+                    <p>Founding and operating Panda J's provided invaluable experience in end-to-end product development, from initial concept through market validation to scaled operations. The iterative approach to recipe development, combined with systematic customer feedback collection, directly parallels modern product management methodologies. This experience demonstrated the power of customer-centric thinking, agile development cycles, and data-driven decision making in building successful products.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
